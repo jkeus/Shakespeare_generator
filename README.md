@@ -1,7 +1,12 @@
-quick high level overview:
+# Basic Overview
 
-this utilizes a long short term approach to generate text by predicting the next character
+This model is a nueral network utilizes a long short term approach to generate text by predicting the next character
 
-it does this by collecting sentences and the corresponding 'next character'.
+It was trained off of text from the famous artist William Shakespeare
 
-the model uses this data to continuously predict each next character which hopefully gives us a coherent sentence
+The code is commented and explains each part of the process from data handling to model training
+
+## Libraries Utilized
+
+- Numpy
+- Tensor Flow
